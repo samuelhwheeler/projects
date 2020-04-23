@@ -1,0 +1,54 @@
+[editor]
+line_wrapping=false
+line_break_column=72
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=true
+detect_indent_width=true
+indent_mode=2
+
+[project]
+name=MasterProject
+base_path=/home/pi/projects/MasterProject/
+description=Root project for python development
+file_patterns=
+
+[long line marker]
+long_line_behaviour=2
+long_line_column=100
+
+[files]
+current_page=1
+FILE_NAME_0=186;Python;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2Fprojects%2FMasterProject%2FUtilityModules%2FFileUtils.py;0;4
+FILE_NAME_1=243;Python;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2Fprojects%2FMasterProject%2FUtilityModules%2Ftest%2FGenericTest.py;0;4
+
+[VTE]
+last_dir=/home/pi
+
+[build-menu]
+NF_00_LB=_Make
+NF_00_CM=make
+NF_00_WD=
+NF_01_LB=Make Custom _Target...
+NF_01_CM=make 
+NF_01_WD=
+EX_00_LB=_Execute
+EX_00_CM=python3.7 -m "%f"
+EX_00_WD=
+EX_01_LB=
+EX_01_CM=
+EX_01_WD=
+PythonFT_00_LB=_Compile
+PythonFT_00_CM=python -m py_compile "%f"
+PythonFT_00_WD=
+filetypes=Python;
